@@ -1,0 +1,231 @@
+[17:39:57] [Client] [info] Client connecting to 127.0.0.1:55555
+[17:39:57] [Client] [info] Sending 1st Handshake message
+[17:39:57] [Client] [info] ackNeeded: false, headersToSendSize > 0: true, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:39:57] [Client] [info] Message send sqn: 0 ack: 0 win: 1073741823 handshake: true fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:39:57] [Server] [warning] in loop
+[17:39:57] [Server] [warning] message parsed
+[17:39:57] [Server] [info] Message received sqn: 0 ack: 0 win: 1073741823 handshake: true fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:39:57] [Server] [info] receivedAckGREhandSeq: false, receivedAckGREfinSeq: false
+[17:39:57] [Server] [info] Server Received 1st HS message
+[17:39:57] [Server] [info] Sending 2nd Handshake message 
+[17:39:57] [Server] [info] New state: 3
+[17:39:57] [Server] [info] bytesAcked: 0, ReceivedAckPure: 0, oldReceivedAckPure: 0
+[17:39:57] [Server] [info] ackNeeded: true, headersToSendSize > 0: true, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:39:57] [Server] [info] Message send sqn: 0 ack: 1 win: 1073741823 handshake: true fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:39:57] [Client] [warning] in loop
+[17:39:57] [Client] [warning] message parsed
+[17:39:57] [Client] [info] Message received sqn: 0 ack: 1 win: 1073741823 handshake: true fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:39:57] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:39:57] [Client] [info] Client received 2nd HS message
+[17:39:57] [Client] [info] Sending 3rd handshake message
+[17:39:57] [Client] [info] New state: 5
+[17:39:57] [Client] [info] bytesAcked: 0, ReceivedAckPure: 0, oldReceivedAckPure: 0
+[17:39:58] [Client] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:39:58] [Client] [info] Message send sqn: 1 ack: 1 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:39:58] [Server] [warning] publicKeySent: true, keyReceived: false
+[17:39:58] [Server] [warning] message parsed
+[17:39:58] [Server] [info] Message received sqn: 1 ack: 1 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:39:58] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:39:58] [Server] [info] Old cwnd: 4500 rwnd: 1073741803
+[17:39:58] [Server] [info] Updated cwnd: 4501 rwnd: 1073741803
+[17:39:58] [Server] [info] New state: 5
+[17:39:58] [Server] [info] bytesAcked: 0, ReceivedAckPure: 0, oldReceivedAckPure: 0
+[17:39:58] [Server] [info] ackNeeded: false, headersToSendSize > 0: true, sendPlaceInBuffer: 0, highestUserByte: 32
+[17:39:58] [Server] [info] Message send sqn: 1 ack: 1 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:39:58] [Server] [info] number of transmitted bytes: 32
+[17:39:58] [Server] [info] sendPlaceInBuffer after update: 32
+[17:39:58] [Client] [warning] in loop
+[17:39:58] [Client] [warning] message parsed
+[17:39:58] [Client] [info] Message received sqn: 1 ack: 1 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:39:58] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:39:58] [Client] [info] Old cwnd: 4500 rwnd: 1073741810
+[17:39:58] [Client] [info] Updated cwnd: 4500 rwnd: 1073741810
+[17:39:58] [Client] [warning] publicKeySent: true, keyReceived: true
+[17:39:58] [Client] [info] New state: 5
+[17:39:58] [Client] [info] acknowledging data
+[17:39:58] [Client] [info] bytesAcked: 0, ReceivedAckPure: 0, oldReceivedAckPure: 0
+[17:39:58] [Client] [info] ackNeeded: true, headersToSendSize > 0: true, sendPlaceInBuffer: 0, highestUserByte: 32
+[17:39:58] [Client] [info] Message send sqn: 1 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:39:58] [Client] [info] number of transmitted bytes: 32
+[17:39:58] [Client] [info] sendPlaceInBuffer after update: 32
+[17:39:58] [Server] [warning] publicKeySent: true, keyReceived: false
+[17:39:58] [Server] [warning] in loop
+[17:39:58] [Server] [warning] message parsed
+[17:39:58] [Server] [info] Message received sqn: 1 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:39:58] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:39:58] [Server] [info] Old cwnd: 4501 rwnd: 1073741775
+[17:39:58] [Server] [info] Updated cwnd: 4533 rwnd: 1073741775
+[17:39:58] [Server] [info] Security Mode now activated
+[17:39:58] [Server] [info] New state: 5
+[17:39:58] [Server] [info] acknowledging data
+[17:39:58] [Server] [info] bytesAcked: 32, ReceivedAckPure: 32, oldReceivedAckPure: 0
+[17:39:58] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:39:58] [Server] [info] Message send sqn: 33 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:39:58] [Client] [warning] message parsed
+[17:39:58] [Client] [info] Message received sqn: 33 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:39:58] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:39:58] [Client] [info] Old cwnd: 4500 rwnd: 1073741775
+[17:39:58] [Client] [info] Updated cwnd: 4532 rwnd: 1073741775
+[17:39:58] [Client] [info] New state: 5
+[17:39:58] [Client] [info] bytesAcked: 32, ReceivedAckPure: 32, oldReceivedAckPure: 0
+[17:40:14] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 57116
+[17:40:14] [Client] [info] Message send sqn: 33 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:14] [Client] [info] number of transmitted bytes: 4532
+[17:40:14] [Client] [info] sendPlaceInBuffer after update: 4532
+[17:40:14] [Server] [warning] sec on
+[17:40:14] [Server] [warning] message parsed
+[17:40:14] [Server] [info] Message received sqn: 33 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:14] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:14] [Server] [info] Old cwnd: 4500 rwnd: 1073741810
+[17:40:14] [Server] [info] Updated cwnd: 4500 rwnd: 1073741810
+[17:40:14] [Server] [info] New state: 5
+[17:40:14] [Server] [info] acknowledging data
+[17:40:14] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:14] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:14] [Server] [info] Message send sqn: 33 ack: 4565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:14] [Client] [warning] sec on
+[17:40:14] [Client] [warning] message parsed
+[17:40:14] [Client] [info] Message received sqn: 33 ack: 4565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:14] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:14] [Client] [info] Old cwnd: 4500 rwnd: 1073737238
+[17:40:14] [Client] [info] Updated cwnd: 6000 rwnd: 1073737238
+[17:40:14] [Client] [info] New state: 5
+[17:40:14] [Client] [info] bytesAcked: 4532, ReceivedAckPure: 4564, oldReceivedAckPure: 32
+[17:40:15] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 52584
+[17:40:15] [Client] [info] Message send sqn: 4565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:15] [Client] [info] number of transmitted bytes: 6000
+[17:40:15] [Client] [info] sendPlaceInBuffer after update: 6000
+[17:40:15] [Server] [warning] sec on
+[17:40:15] [Server] [warning] message parsed
+[17:40:15] [Server] [info] Message received sqn: 4565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:15] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:15] [Server] [info] Old cwnd: 4500 rwnd: 1073741770
+[17:40:15] [Server] [info] Updated cwnd: 4500 rwnd: 1073741770
+[17:40:15] [Server] [info] New state: 5
+[17:40:15] [Server] [info] acknowledging data
+[17:40:15] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:15] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:15] [Server] [info] Message send sqn: 33 ack: 10565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:15] [Client] [warning] sec on
+[17:40:15] [Client] [warning] message parsed
+[17:40:15] [Client] [info] Message received sqn: 33 ack: 10565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:15] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:15] [Client] [info] Old cwnd: 6000 rwnd: 1073735770
+[17:40:15] [Client] [info] Updated cwnd: 7500 rwnd: 1073735770
+[17:40:15] [Client] [info] New state: 5
+[17:40:15] [Client] [info] bytesAcked: 6000, ReceivedAckPure: 10564, oldReceivedAckPure: 4564
+[17:40:15] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 46584
+[17:40:15] [Client] [info] Message send sqn: 10565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:15] [Client] [info] number of transmitted bytes: 7500
+[17:40:15] [Client] [info] sendPlaceInBuffer after update: 7500
+[17:40:15] [Server] [warning] sec on
+[17:40:15] [Server] [warning] message parsed
+[17:40:15] [Server] [info] Message received sqn: 10565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:15] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:15] [Server] [info] Old cwnd: 4500 rwnd: 1073741770
+[17:40:15] [Server] [info] Updated cwnd: 4500 rwnd: 1073741770
+[17:40:15] [Server] [info] New state: 5
+[17:40:15] [Server] [info] acknowledging data
+[17:40:15] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:15] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:15] [Server] [info] Message send sqn: 33 ack: 18065 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:15] [Client] [warning] sec on
+[17:40:15] [Client] [warning] message parsed
+[17:40:15] [Client] [info] Message received sqn: 33 ack: 18065 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:15] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:15] [Client] [info] Old cwnd: 7500 rwnd: 1073734270
+[17:40:15] [Client] [info] Updated cwnd: 9000 rwnd: 1073734270
+[17:40:15] [Client] [info] New state: 5
+[17:40:15] [Client] [info] bytesAcked: 7500, ReceivedAckPure: 18064, oldReceivedAckPure: 10564
+[17:40:15] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 39084
+[17:40:15] [Client] [info] Message send sqn: 18065 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:15] [Client] [info] number of transmitted bytes: 9000
+[17:40:15] [Client] [info] sendPlaceInBuffer after update: 9000
+[17:40:15] [Server] [warning] sec on
+[17:40:15] [Server] [warning] message parsed
+[17:40:15] [Server] [info] Message received sqn: 18065 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:15] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:15] [Server] [info] Old cwnd: 4500 rwnd: 1073741770
+[17:40:15] [Server] [info] Updated cwnd: 4500 rwnd: 1073741770
+[17:40:15] [Server] [info] New state: 5
+[17:40:15] [Server] [info] acknowledging data
+[17:40:15] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:15] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:15] [Server] [info] Message send sqn: 33 ack: 27065 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:15] [Client] [warning] sec on
+[17:40:15] [Client] [warning] message parsed
+[17:40:15] [Client] [info] Message received sqn: 33 ack: 27065 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:15] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:15] [Client] [info] Old cwnd: 9000 rwnd: 1073732770
+[17:40:15] [Client] [info] Updated cwnd: 10500 rwnd: 1073732770
+[17:40:15] [Client] [info] New state: 5
+[17:40:15] [Client] [info] bytesAcked: 9000, ReceivedAckPure: 27064, oldReceivedAckPure: 18064
+[17:40:16] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 30084
+[17:40:16] [Client] [info] Message send sqn: 27065 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:16] [Client] [info] number of transmitted bytes: 10500
+[17:40:16] [Client] [info] sendPlaceInBuffer after update: 10500
+[17:40:16] [Server] [warning] sec on
+[17:40:16] [Server] [warning] message parsed
+[17:40:16] [Server] [info] Message received sqn: 27065 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:16] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:16] [Server] [info] Old cwnd: 4500 rwnd: 1073741770
+[17:40:16] [Server] [info] Updated cwnd: 4500 rwnd: 1073741770
+[17:40:16] [Server] [info] New state: 5
+[17:40:16] [Server] [info] acknowledging data
+[17:40:16] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:16] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:16] [Server] [info] Message send sqn: 33 ack: 37565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:16] [Client] [warning] sec on
+[17:40:16] [Client] [warning] message parsed
+[17:40:16] [Client] [info] Message received sqn: 33 ack: 37565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:16] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:16] [Client] [info] Old cwnd: 10500 rwnd: 1073731270
+[17:40:16] [Client] [info] Updated cwnd: 12000 rwnd: 1073731270
+[17:40:16] [Client] [info] New state: 5
+[17:40:16] [Client] [info] bytesAcked: 10500, ReceivedAckPure: 37564, oldReceivedAckPure: 27064
+[17:40:16] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 19584
+[17:40:16] [Client] [info] Message send sqn: 37565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:16] [Client] [info] number of transmitted bytes: 12000
+[17:40:16] [Client] [info] sendPlaceInBuffer after update: 12000
+[17:40:16] [Server] [warning] sec on
+[17:40:16] [Server] [warning] message parsed
+[17:40:16] [Server] [info] Message received sqn: 37565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:16] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:16] [Server] [info] Old cwnd: 4500 rwnd: 1073741770
+[17:40:16] [Server] [info] Updated cwnd: 4500 rwnd: 1073741770
+[17:40:16] [Server] [info] New state: 5
+[17:40:16] [Server] [info] acknowledging data
+[17:40:16] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:16] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:16] [Server] [info] Message send sqn: 33 ack: 49565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:16] [Client] [warning] sec on
+[17:40:16] [Client] [warning] message parsed
+[17:40:16] [Client] [info] Message received sqn: 33 ack: 49565 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:16] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:16] [Client] [info] Old cwnd: 12000 rwnd: 1073729770
+[17:40:16] [Client] [info] Updated cwnd: 13500 rwnd: 1073729770
+[17:40:16] [Client] [info] New state: 5
+[17:40:16] [Client] [info] bytesAcked: 12000, ReceivedAckPure: 49564, oldReceivedAckPure: 37564
+[17:40:16] [Client] [info] ackNeeded: false, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 7584
+[17:40:16] [Client] [info] Message send sqn: 49565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:16] [Client] [info] number of transmitted bytes: 7584
+[17:40:16] [Client] [info] sendPlaceInBuffer after update: 7584
+[17:40:16] [Server] [warning] sec on
+[17:40:16] [Server] [warning] message parsed
+[17:40:16] [Server] [info] Message received sqn: 49565 ack: 33 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:16] [Server] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:16] [Server] [info] Old cwnd: 4500 rwnd: 1073741770
+[17:40:16] [Server] [info] Updated cwnd: 4500 rwnd: 1073741770
+[17:40:16] [Server] [info] New state: 5
+[17:40:16] [Server] [info] acknowledging data
+[17:40:16] [Server] [info] bytesAcked: 0, ReceivedAckPure: 32, oldReceivedAckPure: 32
+[17:40:16] [Server] [info] ackNeeded: true, headersToSendSize > 0: false, sendPlaceInBuffer: 0, highestUserByte: 0
+[17:40:16] [Server] [info] Message send sqn: 33 ack: 57149 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.217.3:55555 dst: 2.0.202.50:51762)
+[17:40:16] [Client] [warning] sec on
+[17:40:16] [Client] [warning] message parsed
+[17:40:16] [Client] [info] Message received sqn: 33 ack: 57149 win: 1073741823 handshake: false fin: false rst: false on (src: 2.0.0.0:0 dst: 2.0.217.3:55555)
+[17:40:16] [Client] [info] receivedAckGREhandSeq: true, receivedAckGREfinSeq: false
+[17:40:16] [Client] [info] Old cwnd: 13500 rwnd: 1073734186
+[17:40:16] [Client] [info] Updated cwnd: 15000 rwnd: 1073734186
+[17:40:16] [Client] [info] New state: 5
+[17:40:16] [Client] [info] bytesAcked: 7584, ReceivedAckPure: 57148, oldReceivedAckPure: 49564
